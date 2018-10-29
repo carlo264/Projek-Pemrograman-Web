@@ -34,6 +34,7 @@ dengan Delphinfo
       
 ### Bio-Delphi
 Berisi tentang informasi mahasiswa Delphi 2017 meliputi :
+1. User Delphi
 - Nama
 - NPM
 - Jenis Kelamin
@@ -45,7 +46,14 @@ Berisi tentang informasi mahasiswa Delphi 2017 meliputi :
 - Bidang Minat
 - Pekerjaan
 - Tempat Kerja
-
+2. User Stranger
+- Nama
+- NPM
+- Bidang Minat
+- Pekerjaan
+- Tempat Kerja
+3. Admin
+sama seperti user Delphi dan fitur create dan update
 ### Delphinfo
 Berisi tentang info-info pencapaian dan prestasi mahasiswa Delphi baik didalam negeri maupun diluar negeri. Info tersebut tidak hanya
 berisi tentang akademik tetapi dapat berisi juga tentang non akademik
