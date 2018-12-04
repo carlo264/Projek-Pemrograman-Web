@@ -30,7 +30,7 @@ Berikut page yang ada pada website ini:
 ### Homepage
 Berisi tentang deskripsi singkat mengenai delphi 2017 itu sendiri. Dan dibagian footer akan ada Highlights yang terhubung
 dengan Delphinfo
-![alt home](https://github.com/carlo264/Projek-Pemrograman-Web/blob/master/mockup/home_page.png)
+![alt home](https://github.com/carlo264/Projek-Pemrograman-Web/blob/master/mockup/User/home_page.png)
       
 ### Bio-Delphi
 Berisi tentang informasi mahasiswa Delphi 2017 meliputi :
