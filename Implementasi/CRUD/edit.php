@@ -9,7 +9,7 @@
 	$tgl_lahir = $_POST['tanggallahir'];
 	$tmp_lahir = $_POST['tempatlahir'];
 	$alamat = $_POST['alamat'];
-	$hp = $_POST['nohp'];
+	$hp = $_POST['hp'];
 	$id_line = $_POST['idline'];
 	$bdg_minat = $_POST['bidangminat'];
 	$pekerjaan = $_POST['pekerjaan'];
@@ -39,7 +39,7 @@
 		$tmp_lahir = $data['tmp_lahir'];
 		$alamat = $data['alamat'];
 		$hp = $data['hp'];
-		$id_line = $data['id_line'];
+		$id_line = $data['idline'];
 		$bdg_minat = $data['bdg_minat'];
 		$pekerjaan = $data['pekerjaan'];
 		$tmp_kerja = $data['tmp_kerja'];
@@ -58,6 +58,13 @@
 <body style="background-color:black">
 	<center>
 	<style>
+	body{
+		background-image: url("Fotang_Delphi2017.jpg");
+		height:850px;
+    	background-position: center;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
 	table,th,td{
 		border: 5px solid lightblue;
 	}
@@ -65,6 +72,8 @@
 		width: 25%;
 		border-collapse: collapse;
 		text-align: center;
+		color: #ffd102;
+		background-color: rgba(0,0,0, 0.7);
 	}
 	th{
 		height: 50%;
@@ -118,7 +127,7 @@
 			</tr>
 			<tr>
 				<td>Nomor HP</td>
-				<td><input type="text" name="HP" value="<?php echo $hp?>" ></td>
+				<td><input type="text" name="hp" value="<?php echo $hp?>" ></td>
 			</tr>
 			<tr>
 				<td>ID Line</td>
@@ -134,7 +143,7 @@
 			</tr>
 			<tr>
 				<td>Tempat Kerja</td>
-				<td><input type="text" name="tempatkerja" value="<?php echo $hobby?>" ></td>
+				<td><input type="text" name="tempatkerja" value="<?php echo $tmp_kerja?>" ></td>
 			</tr>
             <tr> 
                 <td>Email</td>
