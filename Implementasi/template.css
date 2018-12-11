@@ -1,61 +1,56 @@
-* {
-	margin:0;
-	padding:0;
+.atas{
+	margin-bottom: -9px;
 }
 
 .nav{
+	background-color: #ffd102;
 	text-align: center;
 	font-family: book antiqua;
 	width: 100%;
 	font-size: 20px;
-}
-.nav ul{
-	background-color: #ffd102;
-	list-style: none;
-	position: relative;
-	display: inline-table;
-	width: 100%;
-}
-.nav ul li{
-	padding-left: 2.2%;
-	float: left;
-	margin-bottom:1%;
-	/*
-	display: inline;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    */
-}
-.nav ul li a:hover{
-	background-color: gray;
-	color: snow;
+	
 }
 
-.nav ul li a{
-	margin-top:25%;
-	display: block;
+.navbar{
+	background-color: #ffd102;
+	width: 100%;
+}
+.list a:hover{
+	background-color: gray;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white !important;
+	text-decoration: none !important;
+}
+
+.list a{
 	text-align: center;
-	padding: 5%;
 	color: gray;
-	text-decoration: none;
-	width: 231px;
+	
 }
 .head h1{
 	font-family: book antiqua;
 }
-.nav ul img{
+.list img{
 	float: center;
 	width: 100px;
 	height: 100px;
 }
 .isi {
-	margin-top: -6px;
+	margin-top: 0px;
 	background-image: url("foto/Fotang_Delphi2017.jpg");
-	height:800px;
-    	background-position: center;
+	height:100%;
+    background-position: center;
 	background-repeat: no-repeat;
-    	background-size: cover;
-
+	background-size: cover;
+}
+.isi .container{
+	background-color: rgba(255, 209, 2, 0.595);
+	text-align: center;
+	width: 30%;
+	margin-top: 10px;
+	
+	height: 65%;
 }

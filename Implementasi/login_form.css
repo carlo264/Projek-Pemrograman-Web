@@ -1,41 +1,32 @@
 body{
-	margin:0;
-	padding:0;
+	margin-left:10px !important;
+	padding:10;
 	font-family: serif;
-	background-color: #ffd102;
+	background-color: #ffd102 !important;
 	background-size: cover;
 }
-.top{
-	margin-left:150px;
+.atas{
+	
 	margin-top:20px;
 }
-.top .text{
+
+.atas .textS{
 	margin-top:20px;
-	font-size:60px;
+	font-size:40px;
+	
 }
 .image{
 	height:100px;
 	width:100px;
 }
-.top .orang{
-	height:500px;
-	width:600px;
+
+.fotoimg{
+	margin-bottom:0px;
+	height:600px;
+	width: 100%;
+	height: auto;
 }
-.login_box{
-	width: 280px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(100%,-80%);
-	color: black;
-}
-.login_box h1{
-	float:left;
-	font-size: 40px;
-	border-bottom: 6px solid gray;
-	margin-bottom: 50px;
-	padding: 13px 0;
-}
+
 .textbox{
 	width: 100%;
 	overflow: hidden;
@@ -76,4 +67,8 @@ body{
 .btn:hover{
 	cursor: pointer;
 	background-color: rgba(255,255,255,0.5);
+}
+
+.center{
+	text-align: center;
 }
